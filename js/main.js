@@ -22,7 +22,7 @@ const ingreso = () => {for (i = 1; i <= 1; i++) {
 }
 
 const promocion = (num1, num2) => {
-    return ((num1 + num2) * 0.21) / 0.30
+    return ((num1 + num2) * 1.21) / 1.30
 }
 
 bienvenida()
@@ -76,3 +76,9 @@ const envio3 = new propiedades (2150, "chocolate", 1500)
 envio1.enviar();
 envio2.enviar();
 envio3.enviar();
+
+const arrayEnvio1 = [];
+
+arrayEnvio1.push('id: 1, 1500, "frutillas", 1750');
+console.log(arrayEnvio1)
+console.log(arrayEnvio1.length())
